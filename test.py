@@ -47,3 +47,10 @@ a = [[0, 1, 2, 3, 4, 5],
      [0, 1, 2, 3, 4, 5]]
 
 print(np.matrix(a))
+print("")
+print("")
+print("---------------")
+print("Operators:")
+print("(1 > 2) and (2 < 3) = ", (1 > 2) and (2 < 3))
+print("(1 > 2) or (2 < 3) = ", (1 > 2) or (2 < 3))
+print("(1 == 1) and (2 == 2) = ", (1 == 1) and (2 == 2))
