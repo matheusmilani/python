@@ -66,3 +66,12 @@ elif 2 < 1:
     print('it will not be print')
 else:
     print('it will not be print too')
+print("")
+print("")
+print("---------------")
+print("For loop:")
+seq = [1,2,3,4,5]
+print('seq = ', seq)
+print('for item in seq, do X thing')
+for item in seq:
+    print(item**2)
