@@ -90,3 +90,16 @@ print('while i < max, print i')
 while i < max:
     print(i)
     i += 1
+print("")
+print("")
+print("---------------")
+print("List:")
+out = []
+print('Puts values into an empty list with 3 lines')
+for item in range(5):
+    out.append(item**2)
+    print(out)
+print("")
+print('Puts values into an empty list with one line')
+out2 = [item**2 for item in range(5)]
+print(out2)
