@@ -75,3 +75,18 @@ print('seq = ', seq)
 print('for item in seq, do X thing')
 for item in seq:
     print(item**2)
+print("")
+print('for item in range, print')
+for item in range(0, 10):
+    print(item)
+print("")
+print("")
+print("---------------")
+print("While loop:")
+max = 10
+i = 0
+print('max = ', max)
+print('while i < max, print i')
+while i < max:
+    print(i)
+    i += 1
