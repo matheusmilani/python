@@ -54,3 +54,15 @@ print("Operators:")
 print("(1 > 2) and (2 < 3) = ", (1 > 2) and (2 < 3))
 print("(1 > 2) or (2 < 3) = ", (1 > 2) or (2 < 3))
 print("(1 == 1) and (2 == 2) = ", (1 == 1) and (2 == 2))
+print("('io' == 'oi') = ", ('io' == 'oi'))
+print("('oi' == 'oi') = ", ('oi' == 'oi'))
+print("")
+print("")
+print("---------------")
+print("if, elif, else:")
+if 1 < 2:
+    print('if 1 < 2 it will be print')
+elif 2 < 1:
+    print('it will not be print')
+else:
+    print('it will not be print too')
